@@ -7,6 +7,7 @@ import Loading from './widget/Loading';
 import BasicTable from './tables/BasicTables';
 import AdvancedTable from './tables/AdvancedTables';
 import AsynchronousTable from './tables/AsynchronousTable';
+import Nodes from './nodes/Nodes';
 import Echarts from './charts/Echarts';
 import Recharts from './charts/Recharts';
 import Icons from './ui/Icons';
@@ -53,6 +54,7 @@ export default {
     Banners,
     Drags,
     Dashboard,
+    Nodes,
     Gallery,
     BasicAnimations,
     ExampleAnimations,

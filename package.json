@@ -102,10 +102,10 @@
         "workbox-webpack-plugin": "4.3.1"
     },
     "scripts": {
-        "start": "node scripts/start.js dev",
-        "build": "node scripts/build.js production",
+        "start": "SET NODE_OPTIONS=--openssl-legacy-provider && node scripts/start.js dev",
+        "build": "SET NODE_OPTIONS=--openssl-legacy-provider && node scripts/build.js production",
         "starandsea": "node scripts/build.js starandsea",
-        "test": "node scripts/test.js",
+        "test": "SET NODE_OPTIONS=--openssl-legacy-provider && node scripts/test.js",
         "commit": "git-cz",
         "release": "standard-version"
     },

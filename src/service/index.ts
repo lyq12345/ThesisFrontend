@@ -45,3 +45,5 @@ export const admin = () => get({ url: config.MOCK_AUTH_ADMIN });
 export const guest = () => get({ url: config.MOCK_AUTH_VISITOR });
 /** 获取服务端菜单 */
 export const fetchMenu = () => get({ url: config.MOCK_MENU });
+
+export const fetchDevices = () => get({ url: config.MOCK_BACKEND + '/device/getdevices' });

@@ -89,6 +89,9 @@ function fetchSmenu(handler: any) {
         setAlitaMenu(smenus);
         umbrella.setLocalStorage('smenus', smenus);
     });
+    // fetchDevices().then((data) => {
+    //     console.log(data)
+    // })
 }
 
 const App = (props: AppProps) => {
