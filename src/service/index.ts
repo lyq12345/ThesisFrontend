@@ -47,3 +47,13 @@ export const guest = () => get({ url: config.MOCK_AUTH_VISITOR });
 export const fetchMenu = () => get({ url: config.MOCK_MENU });
 
 export const fetchDevices = () => get({ url: config.MOCK_BACKEND + '/device/getdevices' });
+
+export const fetchOperators = () => get({ url: config.MOCK_BACKEND + '/operator/getOperators' });
+
+export const fetchDeploymentPlan = (data:any) => post({ url: config.MOCK_BACKEND + '/deploy/createDeployment', data: data });
+
+export const getAndstartDeployment = (data:any) => post({ url: config.MOCK_BACKEND + '/deploy/getandstartDeployment', data });
+
+export const fetchResults = () => get({ url: config.MOCK_BACKEND2 + '/result/get_recent_data' });
+
+

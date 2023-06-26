@@ -26,7 +26,7 @@ class Echarts extends React.Component {
                         <div className="gutter-box">
                             <Card title="关系图" bordered={false}>
                                 {/*<EchartsGraphnpm />*/}
-                                <EchartsForce />
+                                <EchartsForce graph={{}}/>
                             </Card>
                         </div>
                     </Col>

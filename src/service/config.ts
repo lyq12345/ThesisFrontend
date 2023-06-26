@@ -6,6 +6,7 @@
 //easy-mock模拟数据接口地址
 const MOCK_API = 'https://react-admin-mock.now.sh/api';
 export const MOCK_BACKEND = 'http://localhost:5000';
+export const MOCK_BACKEND2 = 'http://localhost:9000';
 export const MOCK_AUTH_ADMIN = MOCK_API + '/admin.js'; // 管理员权限接口
 export const MOCK_AUTH_VISITOR = MOCK_API + '/visitor.js'; // 访问权限接口
 /** 服务端异步菜单接口 */

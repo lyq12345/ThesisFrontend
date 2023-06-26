@@ -124,11 +124,11 @@ const Nodes = () => {
 
     return (
         <div className="gutter-example">
-            <BreadcrumbCustom breads={['表格', '异步表格']} />
+            <BreadcrumbCustom breads={['table', 'node-table']} />
             <Row gutter={16}>
                 <Col className="gutter-row" md={24}>
                     <div className="gutter-box">
-                        <Card title="异步表格--BBC新闻今日热门" bordered={false}>
+                        <Card title="Node List in Cluster" bordered={false}>
                             <div style={{ marginBottom: 16 }}>
                                 <Button
                                     type="primary"
